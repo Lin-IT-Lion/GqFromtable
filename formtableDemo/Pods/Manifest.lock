@@ -1,0 +1,14 @@
+PODS:
+  - formtable (1.0.0)
+
+DEPENDENCIES:
+  - formtable (from `../`)
+
+EXTERNAL SOURCES:
+  formtable:
+    :path: ../
+
+SPEC CHECKSUMS:
+  formtable: 3c218d72af0f09d30c4f38bd2387527a405281fe
+
+COCOAPODS: 0.39.0

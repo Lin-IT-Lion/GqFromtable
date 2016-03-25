@@ -1,0 +1,7 @@
+{
+  "name": "formtable",
+  "version": "1.0.0",
+  "summary": "formtable For Lin_IT",
+  "description": "It is a doctor module used on iOS, which implement by Objective-C.",
+  "source_files": "formtable/**/*.{h,m}"
+}
