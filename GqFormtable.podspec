@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.description      = "Quickly generate forms and provide verification"
   s.license          = "lgq"
   s.author           = { "GuoQiang Lin" => "lin_it@outlook.com" }
-  s.source           = { :git => "https://github.com/Lin-IT-Lion/GqFormtable.git" , :git => "0.0.1" } 
+  s.source           = { :git => "https://github.com/Lin-IT-Lion/GqFormtable.git" , :tag => "0.0.1" } 
   s.source_files     = 'GqFormtable/**/*.{h,m}'
   #s.resources = ''
  
