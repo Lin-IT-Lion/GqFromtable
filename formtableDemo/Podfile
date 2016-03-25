@@ -2,7 +2,7 @@
 # platform :ios, ‘7.0’
 
 target 'formtableDemo' do
-pod 'formtable', :path => '../'
+pod ‘GqFormtable', :path => '../'
 end
 
 target 'formtableDemoTests' do

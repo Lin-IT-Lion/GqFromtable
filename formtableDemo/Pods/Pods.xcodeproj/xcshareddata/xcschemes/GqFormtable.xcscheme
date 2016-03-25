@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'F8218E1DE137DF33B48C7B56'
-               BlueprintName = 'Pods-formtableDemo'
+               BlueprintIdentifier = '45353AC6CE298FFDB1DEBB7C'
+               BlueprintName = 'GqFormtable'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-formtableDemo.a'>
+               BuildableName = 'libGqFormtable.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

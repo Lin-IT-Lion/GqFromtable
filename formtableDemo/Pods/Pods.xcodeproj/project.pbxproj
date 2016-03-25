@@ -7,85 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D4561CFFE47015EF1EF25923EB301B7 /* GqFormTableViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C9836ECD849B5216AE4A02D8EA73DB80 /* GqFormTableViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		346DBAAADAF413F42A75364CE9232781 /* GqFromTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 82DBC653704A24FF3FB76E2CB0532228 /* GqFromTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47D1E4FC89D3BEC4636C738EA6AEEB9F /* GqFormTableViewSectionGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2A5B8175C5097D358A7F0BECEFD4FE /* GqFormTableViewSectionGroup.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		482FB003C2B4221A368F5A8BF88B348D /* GqFormTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = BC9A4AC3AC123F6ED189FE367B20522F /* GqFormTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5FE3970027B8A2B2B36EEA5907CCD5A1 /* GqFromTableRepeatTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 341D64B1C1217D62E7E62F4C72109ED4 /* GqFromTableRepeatTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		6A4F0BE9095132BB341FD13EAA90E9EB /* GqFormTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B6E1178F6CE7B4E2D492C0DD80EC51 /* GqFormTableViewModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		7DC9E090D134A156E2802A54C66E217A /* Pods-formtableDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA81F02438CF39C6C323561D2481F4E /* Pods-formtableDemo-dummy.m */; };
-		A44EF173A5AA249F817AAE8315DDA842 /* GqFormTableViewSectionGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CA68365DEFF3DF6D2F6AC6A732A8C41 /* GqFormTableViewSectionGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C30663AED16CAB31FA4B7B9F41878CA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		D022657314D4039D7AC9C435459DF73A /* GqFromTableRepeatTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = A9C6319185C6B0036FAA0B9216ABA442 /* GqFromTableRepeatTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6932DCDD836C0A4840DB90CF44CFEFD /* formtable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 880E0E3511A91A66B37FD4F7A6E3E4D6 /* formtable-dummy.m */; };
-		DEAFAE2838D201DBE5D98C94167E3A4D /* GqFormTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAEC4B242BD4DA3A6AD15883E823946 /* GqFormTableView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E33F3E3099938F3A86AF8461641AA253 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		378423543BB69CE1777C1AE99B281115 /* GqFormTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CCC4D1B64E19BA0D5179B962D339C42 /* GqFormTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EE8854CB6E807362FFFFFF127A76049 /* GqFormTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA89B8BCA0D8E8BC927CA3A04F004600 /* GqFormTableView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		432911C350E22F0BD4CE410E0D28616B /* GqFromTableRepeatTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5193C9143D68E86EAB28BC7DC1B64489 /* GqFromTableRepeatTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6D9B5CDB7AE1F6B7FF0BABBD1AC9798D /* GqFromTableRepeatTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D39136680AC17F74CCB96AF33787708 /* GqFromTableRepeatTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76DA9A2047114ADBC33D9E4EECAB9C30 /* GqFromTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 2591B8803F2F29B66D6F47ABD4E43292 /* GqFromTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96F8DFDB081D15A37CD81BFF54A2A4F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		9921B040A3C0812C39A6CBFDADE98297 /* GqFormTableViewSectionGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 23179E7A65B5654394E4572C9BD34755 /* GqFormTableViewSectionGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1847BAE3C44894B73B3B40D583518AF /* GqFormtable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 881084D21B2F191BFB5731C1226C3D44 /* GqFormtable-dummy.m */; };
+		A4B748F28E063B9476513C4A13F4341A /* GqFormTableViewSectionGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F25BC9E58B8CB879C05DFFEE3F154DC /* GqFormTableViewSectionGroup.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B4FA7D6727B9F874E42F56F2ED0A12DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		E9D061A2B82CB3A2490335F2BA12767E /* GqFormTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B08D41F465D7E1468BF2A0F8D0C1284 /* GqFormTableViewModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EB5C91F053D05D97E0F341206F92E4B0 /* GqFormTableViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 39D5493A5EE0E953EC3498E9831381A3 /* GqFormTableViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F470A862A2790E582AE786C2A03D4D62 /* Pods-formtableDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA81F02438CF39C6C323561D2481F4E /* Pods-formtableDemo-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4F45A9F7BE5CE52EA7E6937E610AD894 /* PBXContainerItemProxy */ = {
+		4B06408DF138671975F05780DFA6948B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EED6ADC70239026B2D5C950B31A800F5;
-			remoteInfo = formtable;
+			remoteGlobalIDString = B10A52AE472646AD645901CF183E3916;
+			remoteInfo = GqFormtable;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CA68365DEFF3DF6D2F6AC6A732A8C41 /* GqFormTableViewSectionGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GqFormTableViewSectionGroup.h; sourceTree = "<group>"; };
-		161D7D98951CC46924F36C36074A81D2 /* formtable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = formtable.xcconfig; sourceTree = "<group>"; };
-		2405A8384618E00DAA6DB621134D8C39 /* libPods-formtableDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-formtableDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF76EBC716B3605FD460A5ADA1B9F8A /* GqFormtable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GqFormtable-prefix.pch"; sourceTree = "<group>"; };
+		1CBD8E143D2D64F7F378BA4CC8DD7DA2 /* libGqFormtable.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGqFormtable.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		23179E7A65B5654394E4572C9BD34755 /* GqFormTableViewSectionGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GqFormTableViewSectionGroup.h; sourceTree = "<group>"; };
+		2591B8803F2F29B66D6F47ABD4E43292 /* GqFromTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GqFromTable.h; sourceTree = "<group>"; };
 		2DFA32CF2782079A5F1C384232824A6E /* Pods-formtableDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-formtableDemo-frameworks.sh"; sourceTree = "<group>"; };
-		341D64B1C1217D62E7E62F4C72109ED4 /* GqFromTableRepeatTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GqFromTableRepeatTextView.m; sourceTree = "<group>"; };
+		39D5493A5EE0E953EC3498E9831381A3 /* GqFormTableViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GqFormTableViewModel.h; sourceTree = "<group>"; };
+		3CCC4D1B64E19BA0D5179B962D339C42 /* GqFormTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GqFormTableView.h; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		82DBC653704A24FF3FB76E2CB0532228 /* GqFromTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GqFromTable.h; sourceTree = "<group>"; };
-		880E0E3511A91A66B37FD4F7A6E3E4D6 /* formtable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "formtable-dummy.m"; sourceTree = "<group>"; };
+		3F25BC9E58B8CB879C05DFFEE3F154DC /* GqFormTableViewSectionGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GqFormTableViewSectionGroup.m; sourceTree = "<group>"; };
+		5193C9143D68E86EAB28BC7DC1B64489 /* GqFromTableRepeatTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GqFromTableRepeatTextView.m; sourceTree = "<group>"; };
+		6D39136680AC17F74CCB96AF33787708 /* GqFromTableRepeatTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GqFromTableRepeatTextView.h; sourceTree = "<group>"; };
+		7B08D41F465D7E1468BF2A0F8D0C1284 /* GqFormTableViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GqFormTableViewModel.m; sourceTree = "<group>"; };
+		881084D21B2F191BFB5731C1226C3D44 /* GqFormtable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GqFormtable-dummy.m"; sourceTree = "<group>"; };
 		8AD256EDB674A4E27B9EE28DD5922610 /* Pods-formtableDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-formtableDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A9C6319185C6B0036FAA0B9216ABA442 /* GqFromTableRepeatTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GqFromTableRepeatTextView.h; sourceTree = "<group>"; };
+		9AB5E3432D778C88FDE71F2E04CF116E /* libPods-formtableDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-formtableDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B49364B859D3FB8F81538BA8371BE96E /* GqFormtable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GqFormtable.xcconfig; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BC9A4AC3AC123F6ED189FE367B20522F /* GqFormTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GqFormTableView.h; sourceTree = "<group>"; };
 		BDA81F02438CF39C6C323561D2481F4E /* Pods-formtableDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-formtableDemo-dummy.m"; sourceTree = "<group>"; };
-		C13C03FACE8844ABCFD64E5A06C170FA /* formtable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "formtable-prefix.pch"; sourceTree = "<group>"; };
-		C9836ECD849B5216AE4A02D8EA73DB80 /* GqFormTableViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GqFormTableViewModel.h; sourceTree = "<group>"; };
-		D0800BB0448297B6B381B71935DF29EC /* libformtable.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libformtable.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA89B8BCA0D8E8BC927CA3A04F004600 /* GqFormTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GqFormTableView.m; sourceTree = "<group>"; };
 		D1EB3CFEFA62F27F4D13735DF1142929 /* Pods-formtableDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-formtableDemo.release.xcconfig"; sourceTree = "<group>"; };
 		DFE16C788854B02AAF1D4C193F1E8A3F /* Pods-formtableDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-formtableDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		ED2A5B8175C5097D358A7F0BECEFD4FE /* GqFormTableViewSectionGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GqFormTableViewSectionGroup.m; sourceTree = "<group>"; };
-		F5B6E1178F6CE7B4E2D492C0DD80EC51 /* GqFormTableViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GqFormTableViewModel.m; sourceTree = "<group>"; };
 		F8AD3CEF7ECC06E936750D637E8DFE4F /* Pods-formtableDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-formtableDemo-resources.sh"; sourceTree = "<group>"; };
-		FCAEC4B242BD4DA3A6AD15883E823946 /* GqFormTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GqFormTableView.m; sourceTree = "<group>"; };
 		FDED844D2185E37EDCBAA458D5AAA82B /* Pods-formtableDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-formtableDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		172A4A6AF008ADA3AE5B329FD7740450 /* Frameworks */ = {
+		292ACA09C70BEE9025BACC98641A57D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E33F3E3099938F3A86AF8461641AA253 /* Foundation.framework in Frameworks */,
+				96F8DFDB081D15A37CD81BFF54A2A4F7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		889FEEF21193E84167188319D591B098 /* Frameworks */ = {
+		C3557FEB56018E5BDBB587224631A13C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C30663AED16CAB31FA4B7B9F41878CA2 /* Foundation.framework in Frameworks */,
+				B4FA7D6727B9F874E42F56F2ED0A12DF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0955618965AE0068B56F27781D040F09 /* formtable */ = {
+		04CE4245F8E84E75A83331478C9D4102 /* GqFormtable */ = {
 			isa = PBXGroup;
 			children = (
-				FD8054032B05198BF62AD3A31227CDA5 /* formtable */,
-				39E800E4BAADD30A011F0109797FCBF3 /* Support Files */,
+				2591B8803F2F29B66D6F47ABD4E43292 /* GqFromTable.h */,
+				267DC067C7400B40AE5F91A879C28FAD /* GqFormTable */,
 			);
-			name = formtable;
-			path = ../..;
+			path = GqFormtable;
+			sourceTree = "<group>";
+		};
+		05B39A020CD13D2F8A94D02597E60443 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6D39136680AC17F74CCB96AF33787708 /* GqFromTableRepeatTextView.h */,
+				5193C9143D68E86EAB28BC7DC1B64489 /* GqFromTableRepeatTextView.m */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 		0B8D22DB9B62FFA1B226D7C97578FF13 /* Pods-formtableDemo */ = {
@@ -103,61 +111,53 @@
 			path = "Target Support Files/Pods-formtableDemo";
 			sourceTree = "<group>";
 		};
-		1F9EC21525EFB3C683D4F8119803613F /* Development Pods */ = {
+		173E59577CD090C1CA3CB7C6EFAEE4DA /* GqFormtable */ = {
 			isa = PBXGroup;
 			children = (
-				0955618965AE0068B56F27781D040F09 /* formtable */,
+				04CE4245F8E84E75A83331478C9D4102 /* GqFormtable */,
+				66F8F830F245F9C5427E00B1490600A3 /* Support Files */,
+			);
+			name = GqFormtable;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		267DC067C7400B40AE5F91A879C28FAD /* GqFormTable */ = {
+			isa = PBXGroup;
+			children = (
+				3CCC4D1B64E19BA0D5179B962D339C42 /* GqFormTableView.h */,
+				CA89B8BCA0D8E8BC927CA3A04F004600 /* GqFormTableView.m */,
+				B462BF5C981EA5063C6008C6DE642542 /* model */,
+				05B39A020CD13D2F8A94D02597E60443 /* view */,
+			);
+			path = GqFormTable;
+			sourceTree = "<group>";
+		};
+		57DBBC24D76D0615B2826AE6FD5B02BA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				173E59577CD090C1CA3CB7C6EFAEE4DA /* GqFormtable */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		39E800E4BAADD30A011F0109797FCBF3 /* Support Files */ = {
+		66F8F830F245F9C5427E00B1490600A3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				161D7D98951CC46924F36C36074A81D2 /* formtable.xcconfig */,
-				880E0E3511A91A66B37FD4F7A6E3E4D6 /* formtable-dummy.m */,
-				C13C03FACE8844ABCFD64E5A06C170FA /* formtable-prefix.pch */,
+				B49364B859D3FB8F81538BA8371BE96E /* GqFormtable.xcconfig */,
+				881084D21B2F191BFB5731C1226C3D44 /* GqFormtable-dummy.m */,
+				0AF76EBC716B3605FD460A5ADA1B9F8A /* GqFormtable-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "formtableDemo/Pods/Target Support Files/formtable";
-			sourceTree = "<group>";
-		};
-		407BA5C2F8AD585D282477DE052D6BA3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D0800BB0448297B6B381B71935DF29EC /* libformtable.a */,
-				2405A8384618E00DAA6DB621134D8C39 /* libPods-formtableDemo.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		612788D26E41CB132DE0C1755984BF86 /* model */ = {
-			isa = PBXGroup;
-			children = (
-				C9836ECD849B5216AE4A02D8EA73DB80 /* GqFormTableViewModel.h */,
-				F5B6E1178F6CE7B4E2D492C0DD80EC51 /* GqFormTableViewModel.m */,
-				0CA68365DEFF3DF6D2F6AC6A732A8C41 /* GqFormTableViewSectionGroup.h */,
-				ED2A5B8175C5097D358A7F0BECEFD4FE /* GqFormTableViewSectionGroup.m */,
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		70566CF2040D0A2E27C7468406778FEC /* view */ = {
-			isa = PBXGroup;
-			children = (
-				A9C6319185C6B0036FAA0B9216ABA442 /* GqFromTableRepeatTextView.h */,
-				341D64B1C1217D62E7E62F4C72109ED4 /* GqFromTableRepeatTextView.m */,
-			);
-			path = view;
+			path = "formtableDemo/Pods/Target Support Files/GqFormtable";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				1F9EC21525EFB3C683D4F8119803613F /* Development Pods */,
+				57DBBC24D76D0615B2826AE6FD5B02BA /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				407BA5C2F8AD585D282477DE052D6BA3 /* Products */,
+				D8ABBBA3533A922235BA4123B8E6FFB8 /* Products */,
 				87FE563F59DAC3ECDF0113B493AD43F7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -168,6 +168,17 @@
 				0B8D22DB9B62FFA1B226D7C97578FF13 /* Pods-formtableDemo */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B462BF5C981EA5063C6008C6DE642542 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				39D5493A5EE0E953EC3498E9831381A3 /* GqFormTableViewModel.h */,
+				7B08D41F465D7E1468BF2A0F8D0C1284 /* GqFormTableViewModel.m */,
+				23179E7A65B5654394E4572C9BD34755 /* GqFormTableViewSectionGroup.h */,
+				3F25BC9E58B8CB879C05DFFEE3F154DC /* GqFormTableViewSectionGroup.m */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -186,76 +197,65 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		EF90456C1E8BCE6F16E277D001FBCBBF /* GqFormTable */ = {
+		D8ABBBA3533A922235BA4123B8E6FFB8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BC9A4AC3AC123F6ED189FE367B20522F /* GqFormTableView.h */,
-				FCAEC4B242BD4DA3A6AD15883E823946 /* GqFormTableView.m */,
-				612788D26E41CB132DE0C1755984BF86 /* model */,
-				70566CF2040D0A2E27C7468406778FEC /* view */,
+				1CBD8E143D2D64F7F378BA4CC8DD7DA2 /* libGqFormtable.a */,
+				9AB5E3432D778C88FDE71F2E04CF116E /* libPods-formtableDemo.a */,
 			);
-			path = GqFormTable;
-			sourceTree = "<group>";
-		};
-		FD8054032B05198BF62AD3A31227CDA5 /* formtable */ = {
-			isa = PBXGroup;
-			children = (
-				82DBC653704A24FF3FB76E2CB0532228 /* GqFromTable.h */,
-				EF90456C1E8BCE6F16E277D001FBCBBF /* GqFormTable */,
-			);
-			path = formtable;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		934A2010C44B9F34262D54B4072B1535 /* Headers */ = {
+		E86F9EC15D5594C6EBCC59E2B104AD94 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				482FB003C2B4221A368F5A8BF88B348D /* GqFormTableView.h in Headers */,
-				2D4561CFFE47015EF1EF25923EB301B7 /* GqFormTableViewModel.h in Headers */,
-				A44EF173A5AA249F817AAE8315DDA842 /* GqFormTableViewSectionGroup.h in Headers */,
-				346DBAAADAF413F42A75364CE9232781 /* GqFromTable.h in Headers */,
-				D022657314D4039D7AC9C435459DF73A /* GqFromTableRepeatTextView.h in Headers */,
+				378423543BB69CE1777C1AE99B281115 /* GqFormTableView.h in Headers */,
+				EB5C91F053D05D97E0F341206F92E4B0 /* GqFormTableViewModel.h in Headers */,
+				9921B040A3C0812C39A6CBFDADE98297 /* GqFormTableViewSectionGroup.h in Headers */,
+				76DA9A2047114ADBC33D9E4EECAB9C30 /* GqFromTable.h in Headers */,
+				6D9B5CDB7AE1F6B7FF0BABBD1AC9798D /* GqFromTableRepeatTextView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		19F9B451B32B65EE9DC15A7E20D51757 /* Pods-formtableDemo */ = {
+		6B976293B031638AB06A3E4CA4D39C90 /* Pods-formtableDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5CC7EEFA9216B9CDBB42B0A94A05ADD3 /* Build configuration list for PBXNativeTarget "Pods-formtableDemo" */;
+			buildConfigurationList = 15D19BC59FEA8F4948477CD50530E3AB /* Build configuration list for PBXNativeTarget "Pods-formtableDemo" */;
 			buildPhases = (
-				9F1AC61128531BBDBECA71D860D688BC /* Sources */,
-				172A4A6AF008ADA3AE5B329FD7740450 /* Frameworks */,
+				0CD20F9C8396AA09B60680DE4DDC897B /* Sources */,
+				C3557FEB56018E5BDBB587224631A13C /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E4CD42105B956C2632B1F980528104DD /* PBXTargetDependency */,
+				88F28DD68D91EEA6F3C8B706F905CA6A /* PBXTargetDependency */,
 			);
 			name = "Pods-formtableDemo";
 			productName = "Pods-formtableDemo";
-			productReference = 2405A8384618E00DAA6DB621134D8C39 /* libPods-formtableDemo.a */;
+			productReference = 9AB5E3432D778C88FDE71F2E04CF116E /* libPods-formtableDemo.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		EED6ADC70239026B2D5C950B31A800F5 /* formtable */ = {
+		B10A52AE472646AD645901CF183E3916 /* GqFormtable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ADB594455A214640B41708290542E181 /* Build configuration list for PBXNativeTarget "formtable" */;
+			buildConfigurationList = A71568B88447B1C9088B539A3B698D5A /* Build configuration list for PBXNativeTarget "GqFormtable" */;
 			buildPhases = (
-				FDD9852E38CFA3BFD15450D27982800E /* Sources */,
-				889FEEF21193E84167188319D591B098 /* Frameworks */,
-				934A2010C44B9F34262D54B4072B1535 /* Headers */,
+				54F5AB3B88CCDAF87C26AC893DA72E28 /* Sources */,
+				292ACA09C70BEE9025BACC98641A57D2 /* Frameworks */,
+				E86F9EC15D5594C6EBCC59E2B104AD94 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = formtable;
-			productName = formtable;
-			productReference = D0800BB0448297B6B381B71935DF29EC /* libformtable.a */;
+			name = GqFormtable;
+			productName = GqFormtable;
+			productReference = 1CBD8E143D2D64F7F378BA4CC8DD7DA2 /* libGqFormtable.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -275,45 +275,45 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 407BA5C2F8AD585D282477DE052D6BA3 /* Products */;
+			productRefGroup = D8ABBBA3533A922235BA4123B8E6FFB8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EED6ADC70239026B2D5C950B31A800F5 /* formtable */,
-				19F9B451B32B65EE9DC15A7E20D51757 /* Pods-formtableDemo */,
+				B10A52AE472646AD645901CF183E3916 /* GqFormtable */,
+				6B976293B031638AB06A3E4CA4D39C90 /* Pods-formtableDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9F1AC61128531BBDBECA71D860D688BC /* Sources */ = {
+		0CD20F9C8396AA09B60680DE4DDC897B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DC9E090D134A156E2802A54C66E217A /* Pods-formtableDemo-dummy.m in Sources */,
+				F470A862A2790E582AE786C2A03D4D62 /* Pods-formtableDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDD9852E38CFA3BFD15450D27982800E /* Sources */ = {
+		54F5AB3B88CCDAF87C26AC893DA72E28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6932DCDD836C0A4840DB90CF44CFEFD /* formtable-dummy.m in Sources */,
-				DEAFAE2838D201DBE5D98C94167E3A4D /* GqFormTableView.m in Sources */,
-				6A4F0BE9095132BB341FD13EAA90E9EB /* GqFormTableViewModel.m in Sources */,
-				47D1E4FC89D3BEC4636C738EA6AEEB9F /* GqFormTableViewSectionGroup.m in Sources */,
-				5FE3970027B8A2B2B36EEA5907CCD5A1 /* GqFromTableRepeatTextView.m in Sources */,
+				A1847BAE3C44894B73B3B40D583518AF /* GqFormtable-dummy.m in Sources */,
+				3EE8854CB6E807362FFFFFF127A76049 /* GqFormTableView.m in Sources */,
+				E9D061A2B82CB3A2490335F2BA12767E /* GqFormTableViewModel.m in Sources */,
+				A4B748F28E063B9476513C4A13F4341A /* GqFormTableViewSectionGroup.m in Sources */,
+				432911C350E22F0BD4CE410E0D28616B /* GqFromTableRepeatTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E4CD42105B956C2632B1F980528104DD /* PBXTargetDependency */ = {
+		88F28DD68D91EEA6F3C8B706F905CA6A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = formtable;
-			target = EED6ADC70239026B2D5C950B31A800F5 /* formtable */;
-			targetProxy = 4F45A9F7BE5CE52EA7E6937E610AD894 /* PBXContainerItemProxy */;
+			name = GqFormtable;
+			target = B10A52AE472646AD645901CF183E3916 /* GqFormtable */;
+			targetProxy = 4B06408DF138671975F05780DFA6948B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -352,12 +352,29 @@
 			};
 			name = Release;
 		};
-		8A8C85BC145E99156F84F435205E241C /* Debug */ = {
+		3192B48EE338BA574A6FFDBD81DCD0CC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 161D7D98951CC46924F36C36074A81D2 /* formtable.xcconfig */;
+			baseConfigurationReference = D1EB3CFEFA62F27F4D13735DF1142929 /* Pods-formtableDemo.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/formtable/formtable-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4D752862AF5F8832E9E911E0A097FFD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B49364B859D3FB8F81538BA8371BE96E /* GqFormtable.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GqFormtable/GqFormtable-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -370,18 +387,19 @@
 			};
 			name = Debug;
 		};
-		A667089A8D63F926D7A071F26F6EFB5E /* Release */ = {
+		523C3336FACD171447526E00F9E3C72B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1EB3CFEFA62F27F4D13735DF1142929 /* Pods-formtableDemo.release.xcconfig */;
+			baseConfigurationReference = B49364B859D3FB8F81538BA8371BE96E /* GqFormtable.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GqFormtable/GqFormtable-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -426,25 +444,7 @@
 			};
 			name = Debug;
 		};
-		B4EFC91CF9E431D83FED3676310A5415 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 161D7D98951CC46924F36C36074A81D2 /* formtable.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/formtable/formtable-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		BBFE0E306570DE3F8B2E482EEDB79500 /* Debug */ = {
+		CE8DCBFBEB8702D76EB41F3B446D8E84 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FDED844D2185E37EDCBAA458D5AAA82B /* Pods-formtableDemo.debug.xcconfig */;
 			buildSettings = {
@@ -464,6 +464,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		15D19BC59FEA8F4948477CD50530E3AB /* Build configuration list for PBXNativeTarget "Pods-formtableDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8DCBFBEB8702D76EB41F3B446D8E84 /* Debug */,
+				3192B48EE338BA574A6FFDBD81DCD0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -473,20 +482,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5CC7EEFA9216B9CDBB42B0A94A05ADD3 /* Build configuration list for PBXNativeTarget "Pods-formtableDemo" */ = {
+		A71568B88447B1C9088B539A3B698D5A /* Build configuration list for PBXNativeTarget "GqFormtable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BBFE0E306570DE3F8B2E482EEDB79500 /* Debug */,
-				A667089A8D63F926D7A071F26F6EFB5E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ADB594455A214640B41708290542E181 /* Build configuration list for PBXNativeTarget "formtable" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8A8C85BC145E99156F84F435205E241C /* Debug */,
-				B4EFC91CF9E431D83FED3676310A5415 /* Release */,
+				4D752862AF5F8832E9E911E0A097FFD8 /* Debug */,
+				523C3336FACD171447526E00F9E3C72B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

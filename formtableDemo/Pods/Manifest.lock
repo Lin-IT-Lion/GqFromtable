@@ -1,14 +1,14 @@
 PODS:
-  - formtable (1.0.0)
+  - GqFormtable (1.0.0)
 
 DEPENDENCIES:
-  - formtable (from `../`)
+  - GqFormtable (from `../`)
 
 EXTERNAL SOURCES:
-  formtable:
+  GqFormtable:
     :path: ../
 
 SPEC CHECKSUMS:
-  formtable: 3c218d72af0f09d30c4f38bd2387527a405281fe
+  GqFormtable: 8a61d0697b409c194f3610c2f74692ece81d8f1a
 
 COCOAPODS: 0.39.0
