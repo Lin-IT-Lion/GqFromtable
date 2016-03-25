@@ -3,7 +3,7 @@ Quickly generate forms and provide verification
 
 # use model to init formtable
 
-
+```objc
 //    for(int i = 0; i< 10; i++)
 //    {
 //        GqFormTableViewSectionGroup *group = [[GqFormTableViewSectionGroup alloc] init];
@@ -24,3 +24,4 @@ Quickly generate forms and provide verification
 //        }
 //        [items addObject:group];
 //    }
+```
